@@ -84,7 +84,7 @@ namespace Calculator
                 if (isTotal)
                 {
                     mainValue = 0;
-                    lastOperation = sign;
+                    lastOperation = "+";
                     isTotal = false;
                 }
                 double tempValue = Convert.ToDouble(textBox.Text);
